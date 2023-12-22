@@ -289,7 +289,7 @@ field is "key", the `operator` is "In", and the `values` array contains only "va
 `matchExpressions` is a list of pod selector requirements. Valid operators include
 In, NotIn, Exists, and DoesNotExist. The values set must be non-empty in the case of
 In and NotIn. All of the requirements, from both `matchLabels` and `matchExpressions`
-are ANDed together -- they must all be satisfied in order to match.
+are combined together -- they must all be satisfied in order to match.
 
 #### Selecting sets of nodes
 
